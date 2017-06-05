@@ -99,8 +99,8 @@ function displayProblem() {
 
 
 function setProblem() {
-  dice1 = Math.floor(Math.random() * 6) + 1;
-  dice2 = Math.floor(Math.random() * 6) + 1;
+  dice1 = "Math.floor"(Math.random() * 6) + 1;
+  dice2 = "Math.floor"(Math.random() * 6) + 1;
   problem = Math.floor(Math.random() * 3) + 1;
   displayProblem();
   return 0;
